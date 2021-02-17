@@ -15,7 +15,7 @@ app.use("/static", express.static(resolvePath("./dist")))
 app.get("/", ((req, res) => {
     res.status(200)
     res.header("Content-Type", "text/html")
-    res.sendFile(resolvePath("./dist/index.html"))
+    res.sendFile(resolvePath("./src/index.html"))
 }))
 http.createServer(app)
     .listen(PORT)

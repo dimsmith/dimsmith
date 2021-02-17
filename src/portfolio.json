@@ -1,40 +1,82 @@
 {
   "profile": {
     "name": "Dimas R Ismail",
+    "prof": "Software Engineer",
+    "company": "PT. Akhdani Reka Solusi",
     "email": "dimsmith.dev@gmail.com",
     "location": "Bandung, West Java, Indonesia",
-    "nationality": "Indonesian"
+    "avatar": "static/assets/images/avatar.jpg"
   },
   "projects": [
     {
-      "name" : "DXTrade Programmer Front End",
+      "name": "DX Remote Trading",
+      "position": "Front End Programmer",
+      "company": "PT. Ihsan Solusi",
+      "year": 2021
+    },
+    {
+      "name": "DXTrade Online Trading System",
+      "position": "Front End Programmer",
       "company": "PT. Reka Cipta Solusi",
       "year": 2020
     },
     {
-      "name" : "Pengembangan Sistem Informasi dan Data Kepegawaian (SIDAWAI)",
+      "name": "MPOS Pegadaian",
+      "position": "Back End Programmer",
+
+      "company": "PT. LEN",
+      "year": 2020
+    },
+    {
+      "name": "Pengembangan Sistem Informasi dan Data Kepegawaian (SIDAWAI)",
+      "position": "Back End Programmer",
       "company": "Institut Teknologi Bandung (ITB)",
       "year": 2019
     },
     {
-      "name" : "Human Resource-Sistem Informasi dan Data (HR-SID)",
+      "name": "Human Resource-Sistem Informasi dan Data (HR-SID)",
+      "position": "Front End Programmer",
       "company": "Institut Teknologi Bandung (ITB)",
       "year": 2018
     },
     {
-      "name" : "Maintenance Aplikasi PMS, PSS, BMS Proyek LRT City",
+      "name": "Maintenance Aplikasi PMS, PSS, BMS Proyek LRT City",
+      "position": "Front End Programmer",
       "company": "PT. Adhi Karya Departemen TOD dan Hotel",
       "year": 2018
     }
   ],
   "certificates": [
     {
-      "name": "The Complete",
-      "year": 2018
+      "name": "The Complete Java Certification Course",
+      "year": 2020,
+      "organization": "Udemy"
+    },
+    {
+      "name": "Kelulusan pada Kelas Pemograman dengan Kotlin",
+      "year": 2020,
+      "organization": "Dicoding Indonesia"
+    },
+    {
+      "name": "Pembicara dalam pelatihan Spring boot",
+      "year": 2020,
+      "organization": "Mitramas Infosys Global (MIG)"
     },
     {
       "name": "Mobile Web Specialist",
-      "year": 2018
+      "year": 2018,
+      "organization": "Google Developer Kejar Indonesia"
     }
+  ],
+  "skills": [
+    "PHP",
+    "Java",
+    "Kotlin",
+    "Laravel",
+    "CodeIgniter",
+    "TornadoFX",
+    "MySQL",
+    "MongoDB",
+    "Slim Framework"
   ]
 }
