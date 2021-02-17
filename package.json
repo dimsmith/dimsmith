@@ -15,7 +15,8 @@
     "vue-template-compiler": "^2.6.12"
   },
   "scripts": {
-    "start": "sass --no-source-map --style=compressed ./src/assets/app.scss ./dist/assets/app.min.css && webpack && node server.js",
+    "start": "node server.js",
+    "run":"sass --no-source-map --style=compressed ./src/assets/app.scss ./dist/assets/app.min.css && webpack && node server.js",
     "build": "webpack",
     "build:watch": "webpack --watch",
     "sass:watch": "sass --watch --no-source-map --style=compressed ./src/assets/app.scss ./dist/assets/app.min.css",
